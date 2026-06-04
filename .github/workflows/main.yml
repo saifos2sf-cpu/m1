@@ -14,7 +14,7 @@ jobs:
     timeout-minutes: 1000
     strategy:
       matrix:
-        instance: [1, 2, 3, 4, 5, 6, 7, 8, 9, 10,]
+        instance: [1, 2,]
     steps:
       - name: 1. Aggressive system tuning (services, CPU, network, FS)
         run: |
